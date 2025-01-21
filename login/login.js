@@ -9,7 +9,7 @@ formReg.addEventListener(('submit'),function(e){
     let valueLocal = localStorage.getItem(valuename)
     if (valueLocal === valuepassword) {
         alert('Login Muvoffaqiyatli')
-        window.location.href = '../index.html'
+        window.location.href = '../home.html'
     }else{
         alert('Login yoki parol xato')
     }

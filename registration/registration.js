@@ -18,7 +18,7 @@ formReg.addEventListener('submit', function (e) {
             localStorage.setItem(valueUsername, valuePassword)
             alert('Muvaffaqiyatli ro`yxatdan o`tdingiz')
             formReg.reset(); 
-            window.location.href = '../index.html'
+            window.location.href = '../home.html'
         }
     }
 });
